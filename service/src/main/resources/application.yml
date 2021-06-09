@@ -1,0 +1,12 @@
+amazon:
+  accessKey:
+  secretKey:
+  region: us-east-2
+  sagemaker:
+    training:
+      s3Uri: s3://amazon-sagemaker-s3bucket/dataset/
+      trainingJobName: trainingJob
+      roleArn:
+      s3OutputPath: s3://amazon-sagemaker-s3bucket/model/
+      channelName: training
+      trainingImage:
